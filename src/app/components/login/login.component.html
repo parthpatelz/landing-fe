@@ -1,4 +1,10 @@
-<div class="container">
+
+
+
+
+<div class="final">
+    
+    <div class="container">
     <h2>Login</h2>
     <form [formGroup]="loginForm" (ngSubmit)="submitForm()">
         <div class="form-group">
@@ -13,4 +19,9 @@
 
         <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Login</button>
     </form>
+    <div class="new-member">
+        New to TTP? <a routerLink="/register">   Sign up</a>
+    </div>
+</div>
+
 </div>

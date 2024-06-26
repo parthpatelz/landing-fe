@@ -1,0 +1,33 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Node modules and packages
+/node_modules
+/dist
+/*.lock
+/npm-debug.log
+yarn-error.log
+
+# Environment variables
+/src/environments/*.ts
+/src/environments/*.js
+
+# Compiled output
+/dist/
+
+# Logs
+/logs
+
+# Dependency directories
+/packagelock.json
+
+# Typescript configuration
+/tsconfig.json
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
